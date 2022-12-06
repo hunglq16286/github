@@ -9,7 +9,7 @@
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
   -->
-  <title>Hiệu ứng CSS 3D-Edit shatasy</title>
+  <title>BienHoa_odoo</title>
   <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 
   <script type="text/javascript" charset="utf-8">
@@ -75,15 +75,13 @@ farbbibliothek[6] = new Array("#0000FF","#FFFF00");
 farben = farbbibliothek[4];
 function farbschrift(){for(var b=0;b<Buchstabe.length;b++){document.all["a"+b].style.color=farben[b]}farbverlauf()}function string2array(b){Buchstabe=new Array();while(farben.length<b.length){farben=farben.concat(farben)}k=0;while(k<=b.length){Buchstabe[k]=b.charAt(k);k++}}function divserzeugen(){for(var b=0;b<Buchstabe.length;b++){document.write("<span id='a"+b+"' class='a"+b+"'>"+Buchstabe[b]+"</span>")}farbschrift()}var a=1;function farbverlauf(){for(var b=0;b<farben.length;b++){farben[b-1]=farben[b]}farben[farben.length-1]=farben[-1];setTimeout("farbschrift()",30)}var farbsatz=1;function farbtauscher(){farben=farbbibliothek[farbsatz];while(farben.length<text.length){farben=farben.concat(farben)}farbsatz=Math.floor(Math.random()*(farbbibliothek.length-0.0001))}setInterval("farbtauscher()",5000);
 
-text= " Share To J2TEAM Community"; //h
+text= "Welcome to odoo Biên Hòa"; //h
 string2array(text);
 divserzeugen();
 //document.write(text);
 </script></div></center>
 
 <div style="text-align: right;padding: 15px;"><a href="#" class="classname" onclick="toggleShape()">Đổi kiểu</a></div>
-<div style="text-align: right;padding: 15px;"><a href="https://www.facebook.com/groups/j2team.community/">Quay về Group</a></div>
-  <div style="text-align: right;padding: 15px;"><a href="https://www.facebook.com/rootshatasy"><u><b>Code edit by shatasy & Source share Group</b></u></a></div>
   <div id="container">
     <div id="stage">
       <div id="shape" class="cube backfaces">
